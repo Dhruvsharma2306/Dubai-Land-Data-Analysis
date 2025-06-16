@@ -1,0 +1,2789 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4dc02c29c33f143db5f224ae329b8485 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4dc02c29c33f143db5f224ae329b8485" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4dc02c29c33f143db5f224ae329b8485 = L.map(
+                "map_4dc02c29c33f143db5f224ae329b8485",
+                {
+                    center: [25.276987, 55.296249],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d691da0b2570ce8b859bf7b1d784c457 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d691da0b2570ce8b859bf7b1d784c457.addTo(map_4dc02c29c33f143db5f224ae329b8485);
+        
+    
+            var marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6 = L.markerClusterGroup(
+                {
+}
+            );
+        
+    
+            var circle_marker_fbb9a8276270c643bca0519a561a264e = L.circleMarker(
+                [25.2008309, 55.2452019],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_440548621d84e55d1e7f20f812eb4027 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ccc0d010b2e5c9f18643c80b1cdc54f0 = $(`<div id="html_ccc0d010b2e5c9f18643c80b1cdc54f0" style="width: 100.0%; height: 100.0%;">Jumeirah 2<br>Price: 48415.89 AED<br>Cluster: 1</div>`)[0];
+                popup_440548621d84e55d1e7f20f812eb4027.setContent(html_ccc0d010b2e5c9f18643c80b1cdc54f0);
+            
+        
+
+        circle_marker_fbb9a8276270c643bca0519a561a264e.bindPopup(popup_440548621d84e55d1e7f20f812eb4027)
+        ;
+
+        
+    
+    
+            var circle_marker_0cc08e756fe99a3593b0b620da1610cc = L.circleMarker(
+                [25.197624, 55.2258239],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_8985d8c82d3ff0ba645264c71cd4766a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d34cf8ddbe7e48e116acc0012009749 = $(`<div id="html_4d34cf8ddbe7e48e116acc0012009749" style="width: 100.0%; height: 100.0%;">Island 2<br>Price: 45355.21 AED<br>Cluster: 1</div>`)[0];
+                popup_8985d8c82d3ff0ba645264c71cd4766a.setContent(html_4d34cf8ddbe7e48e116acc0012009749);
+            
+        
+
+        circle_marker_0cc08e756fe99a3593b0b620da1610cc.bindPopup(popup_8985d8c82d3ff0ba645264c71cd4766a)
+        ;
+
+        
+    
+    
+            var circle_marker_a46fb944806b26a9a0089c49dcc5f5e7 = L.circleMarker(
+                [25.1095362499999, 55.1722137020831],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_d07c21a4b1e6b0cb5d96db16f8a3f169 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ebc4eac41096cf73146c1986f68dd59 = $(`<div id="html_9ebc4eac41096cf73146c1986f68dd59" style="width: 100.0%; height: 100.0%;">2 Al Sufouh<br>Price: 29831.26 AED<br>Cluster: 1</div>`)[0];
+                popup_d07c21a4b1e6b0cb5d96db16f8a3f169.setContent(html_9ebc4eac41096cf73146c1986f68dd59);
+            
+        
+
+        circle_marker_a46fb944806b26a9a0089c49dcc5f5e7.bindPopup(popup_d07c21a4b1e6b0cb5d96db16f8a3f169)
+        ;
+
+        
+    
+    
+            var circle_marker_2cb4551751d141c7ed578a692f5c19de = L.circleMarker(
+                [25.218657, 55.3083872],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_efedfb908cd5584b99e9f6b4b5615b60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ee3347537f4a6cf38e1dcd605b5e4963 = $(`<div id="html_ee3347537f4a6cf38e1dcd605b5e4963" style="width: 100.0%; height: 100.0%;">Za'abeel 1<br>Price: 29359.58 AED<br>Cluster: 1</div>`)[0];
+                popup_efedfb908cd5584b99e9f6b4b5615b60.setContent(html_ee3347537f4a6cf38e1dcd605b5e4963);
+            
+        
+
+        circle_marker_2cb4551751d141c7ed578a692f5c19de.bindPopup(popup_efedfb908cd5584b99e9f6b4b5615b60)
+        ;
+
+        
+    
+    
+            var circle_marker_3398fa9b6a26656290f6588fa864756c = L.circleMarker(
+                [25.1180879, 55.1342009],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_cacde80d02043fa9459de8b573a7bf3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e83b8740900d571c308d268fa26170b = $(`<div id="html_1e83b8740900d571c308d268fa26170b" style="width: 100.0%; height: 100.0%;">Palm Jumeirah<br>Price: 26532.485 AED<br>Cluster: 1</div>`)[0];
+                popup_cacde80d02043fa9459de8b573a7bf3b.setContent(html_1e83b8740900d571c308d268fa26170b);
+            
+        
+
+        circle_marker_3398fa9b6a26656290f6588fa864756c.bindPopup(popup_cacde80d02043fa9459de8b573a7bf3b)
+        ;
+
+        
+    
+    
+            var circle_marker_57e919116d6fba9d78e63914f03ac41c = L.circleMarker(
+                [25.2809884, 55.3195255],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_aa3a7c6e80bb2d2319f223b407a8f65e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_973ffaf66666e2781fbabcb66b3138d8 = $(`<div id="html_973ffaf66666e2781fbabcb66b3138d8" style="width: 100.0%; height: 100.0%;">Al Baraha<br>Price: 25976.91 AED<br>Cluster: 1</div>`)[0];
+                popup_aa3a7c6e80bb2d2319f223b407a8f65e.setContent(html_973ffaf66666e2781fbabcb66b3138d8);
+            
+        
+
+        circle_marker_57e919116d6fba9d78e63914f03ac41c.bindPopup(popup_aa3a7c6e80bb2d2319f223b407a8f65e)
+        ;
+
+        
+    
+    
+            var circle_marker_012a8fe69ebcba4866e1a31d30514bf4 = L.circleMarker(
+                [25.2913041, 55.3744578],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_fe3843fe8b6644bc4d113a8ebe4c22da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d9d3f69337d88097fee2a768466c833 = $(`<div id="html_7d9d3f69337d88097fee2a768466c833" style="width: 100.0%; height: 100.0%;">Al Nahda 2<br>Price: 25767.0 AED<br>Cluster: 1</div>`)[0];
+                popup_fe3843fe8b6644bc4d113a8ebe4c22da.setContent(html_7d9d3f69337d88097fee2a768466c833);
+            
+        
+
+        circle_marker_012a8fe69ebcba4866e1a31d30514bf4.bindPopup(popup_fe3843fe8b6644bc4d113a8ebe4c22da)
+        ;
+
+        
+    
+    
+            var circle_marker_7b3202362af565808f2d6be1a88a3297 = L.circleMarker(
+                [25.1768604, 55.3261997],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_89700c0c82e47fa3c8e36bcc77ca9c76 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef7358086792b416ef0eef54aba1deac = $(`<div id="html_ef7358086792b416ef0eef54aba1deac" style="width: 100.0%; height: 100.0%;">Bukadra<br>Price: 25725.8 AED<br>Cluster: 1</div>`)[0];
+                popup_89700c0c82e47fa3c8e36bcc77ca9c76.setContent(html_ef7358086792b416ef0eef54aba1deac);
+            
+        
+
+        circle_marker_7b3202362af565808f2d6be1a88a3297.bindPopup(popup_89700c0c82e47fa3c8e36bcc77ca9c76)
+        ;
+
+        
+    
+    
+            var circle_marker_12d611dff2fba9e2600479ea6e3ffaff = L.circleMarker(
+                [25.2049558, 55.2972924],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_2dd443e167df2b725a08490ecf0e4277 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_314a0b979fc47a3d17fbe343bb7468e2 = $(`<div id="html_314a0b979fc47a3d17fbe343bb7468e2" style="width: 100.0%; height: 100.0%;">Zaabeel 2<br>Price: 25392.87 AED<br>Cluster: 1</div>`)[0];
+                popup_2dd443e167df2b725a08490ecf0e4277.setContent(html_314a0b979fc47a3d17fbe343bb7468e2);
+            
+        
+
+        circle_marker_12d611dff2fba9e2600479ea6e3ffaff.bindPopup(popup_2dd443e167df2b725a08490ecf0e4277)
+        ;
+
+        
+    
+    
+            var circle_marker_2e7a614ecd40c202991a0c5f5305d357 = L.circleMarker(
+                [25.1970336, 55.27413294647308],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_cdc815d00d6abcbc78c45818a2485999 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2462108e663ba93f7f085425785988a9 = $(`<div id="html_2462108e663ba93f7f085425785988a9" style="width: 100.0%; height: 100.0%;">Burj Khalifa<br>Price: 24265.48 AED<br>Cluster: 1</div>`)[0];
+                popup_cdc815d00d6abcbc78c45818a2485999.setContent(html_2462108e663ba93f7f085425785988a9);
+            
+        
+
+        circle_marker_2e7a614ecd40c202991a0c5f5305d357.bindPopup(popup_cdc815d00d6abcbc78c45818a2485999)
+        ;
+
+        
+    
+    
+            var circle_marker_04f3526791cb24548a0a06f9747a7dd3 = L.circleMarker(
+                [25.2761408, 55.3016752],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_279ee37c6013c91ba95d64ff5bbc554c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f47d2741eeca339a88c351f5cc525ac = $(`<div id="html_3f47d2741eeca339a88c351f5cc525ac" style="width: 100.0%; height: 100.0%;">Palm Deira<br>Price: 23981.86 AED<br>Cluster: 1</div>`)[0];
+                popup_279ee37c6013c91ba95d64ff5bbc554c.setContent(html_3f47d2741eeca339a88c351f5cc525ac);
+            
+        
+
+        circle_marker_04f3526791cb24548a0a06f9747a7dd3.bindPopup(popup_279ee37c6013c91ba95d64ff5bbc554c)
+        ;
+
+        
+    
+    
+            var circle_marker_de5e36cb07fca6eb6ff9491222f1eb9c = L.circleMarker(
+                [25.2496256, 55.276165],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_239a8431b2911b6d7540cb3399134915 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66616653f689bac9f4000579eda77f92 = $(`<div id="html_66616653f689bac9f4000579eda77f92" style="width: 100.0%; height: 100.0%;">Madinat Dubai Almelaheyah<br>Price: 23944.65 AED<br>Cluster: 1</div>`)[0];
+                popup_239a8431b2911b6d7540cb3399134915.setContent(html_66616653f689bac9f4000579eda77f92);
+            
+        
+
+        circle_marker_de5e36cb07fca6eb6ff9491222f1eb9c.bindPopup(popup_239a8431b2911b6d7540cb3399134915)
+        ;
+
+        
+    
+    
+            var circle_marker_38fa50fd9ae2444b2fdcf567bf6db101 = L.circleMarker(
+                [25.1959326, 55.2557371],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_ded352af5251d570a8ab4c884c72ffeb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a90f83d021788a6f214276568b77b4cf = $(`<div id="html_a90f83d021788a6f214276568b77b4cf" style="width: 100.0%; height: 100.0%;">Al Wasl<br>Price: 23897.715 AED<br>Cluster: 1</div>`)[0];
+                popup_ded352af5251d570a8ab4c884c72ffeb.setContent(html_a90f83d021788a6f214276568b77b4cf);
+            
+        
+
+        circle_marker_38fa50fd9ae2444b2fdcf567bf6db101.bindPopup(popup_ded352af5251d570a8ab4c884c72ffeb)
+        ;
+
+        
+    
+    
+            var circle_marker_109d964d1485d3dda9badfc53959a14f = L.circleMarker(
+                [25.1375268, 55.1957658],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_69efe13f9cbc4d1982d8fbae29448d91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bdffe4d53992ac6b31cadb2ef52bf9c8 = $(`<div id="html_bdffe4d53992ac6b31cadb2ef52bf9c8" style="width: 100.0%; height: 100.0%;">Umm Suqeim 3<br>Price: 23837.13 AED<br>Cluster: 1</div>`)[0];
+                popup_69efe13f9cbc4d1982d8fbae29448d91.setContent(html_bdffe4d53992ac6b31cadb2ef52bf9c8);
+            
+        
+
+        circle_marker_109d964d1485d3dda9badfc53959a14f.bindPopup(popup_69efe13f9cbc4d1982d8fbae29448d91)
+        ;
+
+        
+    
+    
+            var circle_marker_274f4148341c47a16eb513db97d5f826 = L.circleMarker(
+                [25.1768013, 55.3392998],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_a761a49b48f7837da49ce0c71653a2e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecd0c0f2ca4ea3ae3c1a036542533a43 = $(`<div id="html_ecd0c0f2ca4ea3ae3c1a036542533a43" style="width: 100.0%; height: 100.0%;">Ras Al Khor Industrial 1<br>Price: 23142.47 AED<br>Cluster: 1</div>`)[0];
+                popup_a761a49b48f7837da49ce0c71653a2e2.setContent(html_ecd0c0f2ca4ea3ae3c1a036542533a43);
+            
+        
+
+        circle_marker_274f4148341c47a16eb513db97d5f826.bindPopup(popup_a761a49b48f7837da49ce0c71653a2e2)
+        ;
+
+        
+    
+    
+            var circle_marker_647fe06d8c357c98b969ea58ff6c8b39 = L.circleMarker(
+                [25.0786415, 55.1352524],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_5bd1be9f77330bb9b051c49521a03667 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb89af010a35f877e402973b327cc3d4 = $(`<div id="html_cb89af010a35f877e402973b327cc3d4" style="width: 100.0%; height: 100.0%;">Marsa Dubai<br>Price: 22788.65 AED<br>Cluster: 1</div>`)[0];
+                popup_5bd1be9f77330bb9b051c49521a03667.setContent(html_cb89af010a35f877e402973b327cc3d4);
+            
+        
+
+        circle_marker_647fe06d8c357c98b969ea58ff6c8b39.bindPopup(popup_5bd1be9f77330bb9b051c49521a03667)
+        ;
+
+        
+    
+    
+            var circle_marker_42ee56bd6161dd457cf471640e4bc2b9 = L.circleMarker(
+                [25.2482136, 55.3050609],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_ed02523e1b336b83af946f1d5ab6b47e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_611e565c1ecc1450d79c24a8ae8871e8 = $(`<div id="html_611e565c1ecc1450d79c24a8ae8871e8" style="width: 100.0%; height: 100.0%;">Al Karama<br>Price: 22711.145 AED<br>Cluster: 1</div>`)[0];
+                popup_ed02523e1b336b83af946f1d5ab6b47e.setContent(html_611e565c1ecc1450d79c24a8ae8871e8);
+            
+        
+
+        circle_marker_42ee56bd6161dd457cf471640e4bc2b9.bindPopup(popup_ed02523e1b336b83af946f1d5ab6b47e)
+        ;
+
+        
+    
+    
+            var circle_marker_0a444f5f45b325384163f7fe825bcab2 = L.circleMarker(
+                [25.219343, 55.2578183],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_1bb31b3bbbef3475c36e7bb3e6c29d56 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de859990b01ef2a877cdeadbdf410a78 = $(`<div id="html_de859990b01ef2a877cdeadbdf410a78" style="width: 100.0%; height: 100.0%;">Jumeirah 1<br>Price: 22436.89 AED<br>Cluster: 1</div>`)[0];
+                popup_1bb31b3bbbef3475c36e7bb3e6c29d56.setContent(html_de859990b01ef2a877cdeadbdf410a78);
+            
+        
+
+        circle_marker_0a444f5f45b325384163f7fe825bcab2.bindPopup(popup_1bb31b3bbbef3475c36e7bb3e6c29d56)
+        ;
+
+        
+    
+    
+            var circle_marker_0289c14e13c2063023813d3a0cc31156 = L.circleMarker(
+                [25.2110472, 55.1693538],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_f61ec63f68b75172e3f8b57281292dd0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a370a8f1762ed201457af8585013dd8e = $(`<div id="html_a370a8f1762ed201457af8585013dd8e" style="width: 100.0%; height: 100.0%;">World Islands<br>Price: 21856.985 AED<br>Cluster: 1</div>`)[0];
+                popup_f61ec63f68b75172e3f8b57281292dd0.setContent(html_a370a8f1762ed201457af8585013dd8e);
+            
+        
+
+        circle_marker_0289c14e13c2063023813d3a0cc31156.bindPopup(popup_f61ec63f68b75172e3f8b57281292dd0)
+        ;
+
+        
+    
+    
+            var circle_marker_01b01561d974ec6c5c4d5f1039bad0c2 = L.circleMarker(
+                [25.18942655, 55.26481901527489],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_99c8b9e56cbe4043f90dbf79e61eea1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bbe485bc0565d0c521f81aa131fc91c9 = $(`<div id="html_bbe485bc0565d0c521f81aa131fc91c9" style="width: 100.0%; height: 100.0%;">Business Bay<br>Price: 20920.42 AED<br>Cluster: 1</div>`)[0];
+                popup_99c8b9e56cbe4043f90dbf79e61eea1d.setContent(html_bbe485bc0565d0c521f81aa131fc91c9);
+            
+        
+
+        circle_marker_01b01561d974ec6c5c4d5f1039bad0c2.bindPopup(popup_99c8b9e56cbe4043f90dbf79e61eea1d)
+        ;
+
+        
+    
+    
+            var circle_marker_641a049f8118afafecc485dd3466863b = L.circleMarker(
+                [25.0997729, 55.2691819],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_2adbf0a98672413771e569ff0819377b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd74d8e4f020c4c1200020225cb9f766 = $(`<div id="html_bd74d8e4f020c4c1200020225cb9f766" style="width: 100.0%; height: 100.0%;">Hadaeq Sheikh Mohammed Bin Rashid<br>Price: 20187.79 AED<br>Cluster: 1</div>`)[0];
+                popup_2adbf0a98672413771e569ff0819377b.setContent(html_bd74d8e4f020c4c1200020225cb9f766);
+            
+        
+
+        circle_marker_641a049f8118afafecc485dd3466863b.bindPopup(popup_2adbf0a98672413771e569ff0819377b)
+        ;
+
+        
+    
+    
+            var circle_marker_3ddfd99904cc99ba1a757df5989c153d = L.circleMarker(
+                [25.2346273, 55.2985973123799],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_9e2dd4c76c79f3746d914ea969f270ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cb9c307d3e19221dc2991ed5ec1a6ea = $(`<div id="html_6cb9c307d3e19221dc2991ed5ec1a6ea" style="width: 100.0%; height: 100.0%;">Al Kifaf<br>Price: 19666.68 AED<br>Cluster: 1</div>`)[0];
+                popup_9e2dd4c76c79f3746d914ea969f270ab.setContent(html_6cb9c307d3e19221dc2991ed5ec1a6ea);
+            
+        
+
+        circle_marker_3ddfd99904cc99ba1a757df5989c153d.bindPopup(popup_9e2dd4c76c79f3746d914ea969f270ab)
+        ;
+
+        
+    
+    
+            var circle_marker_c59a1e9b5b885d96a60016f99782bb8f = L.circleMarker(
+                [25.2346536, 55.27886125000001],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_1f46f4de8099c69a95a6489f4026f183 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e2a04384bfaa02afde54c0beaf404dd3 = $(`<div id="html_e2a04384bfaa02afde54c0beaf404dd3" style="width: 100.0%; height: 100.0%;">Al Satwa<br>Price: 18905.71 AED<br>Cluster: 1</div>`)[0];
+                popup_1f46f4de8099c69a95a6489f4026f183.setContent(html_e2a04384bfaa02afde54c0beaf404dd3);
+            
+        
+
+        circle_marker_c59a1e9b5b885d96a60016f99782bb8f.bindPopup(popup_1f46f4de8099c69a95a6489f4026f183)
+        ;
+
+        
+    
+    
+            var circle_marker_d0f8df96fadd16f4c64831c5e14d34d2 = L.circleMarker(
+                [25.169213, 55.2924727],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_74c504d41a23505e6135b9d80a1cb724 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f0d01377b6f971c782693fbfc9764120 = $(`<div id="html_f0d01377b6f971c782693fbfc9764120" style="width: 100.0%; height: 100.0%;">Al Merkadh<br>Price: 18894.52 AED<br>Cluster: 1</div>`)[0];
+                popup_74c504d41a23505e6135b9d80a1cb724.setContent(html_f0d01377b6f971c782693fbfc9764120);
+            
+        
+
+        circle_marker_d0f8df96fadd16f4c64831c5e14d34d2.bindPopup(popup_74c504d41a23505e6135b9d80a1cb724)
+        ;
+
+        
+    
+    
+            var circle_marker_aa25343727ddfcf2ff054d662d06fc9d = L.circleMarker(
+                [25.0751088, 55.3175621],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_f23667fef21c378457845a00cd6f49df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c6b0403775eb93a48ab2f88e598ae108 = $(`<div id="html_c6b0403775eb93a48ab2f88e598ae108" style="width: 100.0%; height: 100.0%;">Wadi Al Safa 4<br>Price: 17206.485 AED<br>Cluster: 0</div>`)[0];
+                popup_f23667fef21c378457845a00cd6f49df.setContent(html_c6b0403775eb93a48ab2f88e598ae108);
+            
+        
+
+        circle_marker_aa25343727ddfcf2ff054d662d06fc9d.bindPopup(popup_f23667fef21c378457845a00cd6f49df)
+        ;
+
+        
+    
+    
+            var circle_marker_93b1f4a895e02de161e685a6c5d7114c = L.circleMarker(
+                [25.2599297, 55.3031938],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_51bf7567f807519c25107d39ac1a0788 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_097acf9cdc60d3c8107031724e711615 = $(`<div id="html_097acf9cdc60d3c8107031724e711615" style="width: 100.0%; height: 100.0%;">Al Hamriya<br>Price: 17157.32 AED<br>Cluster: 0</div>`)[0];
+                popup_51bf7567f807519c25107d39ac1a0788.setContent(html_097acf9cdc60d3c8107031724e711615);
+            
+        
+
+        circle_marker_93b1f4a895e02de161e685a6c5d7114c.bindPopup(popup_51bf7567f807519c25107d39ac1a0788)
+        ;
+
+        
+    
+    
+            var circle_marker_4ea290cb24edd791d2d96dd51b6d9857 = L.circleMarker(
+                [24.9744463, 55.211914462381316],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_234367c727cd9fa06c550e3df4232559 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f4466c09bbeeee609bc5082d9bada29b = $(`<div id="html_f4466c09bbeeee609bc5082d9bada29b" style="width: 100.0%; height: 100.0%;">Dubai Investment Park 2<br>Price: 16993.895 AED<br>Cluster: 0</div>`)[0];
+                popup_234367c727cd9fa06c550e3df4232559.setContent(html_f4466c09bbeeee609bc5082d9bada29b);
+            
+        
+
+        circle_marker_4ea290cb24edd791d2d96dd51b6d9857.bindPopup(popup_234367c727cd9fa06c550e3df4232559)
+        ;
+
+        
+    
+    
+            var circle_marker_b0ebd52d30960d1da55994bb1586170b = L.circleMarker(
+                [25.2719386, 55.3101673],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_2117891edb382da84e93d4de74fc5213 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c54a0ad482c11cbfdead33a48de866d = $(`<div id="html_8c54a0ad482c11cbfdead33a48de866d" style="width: 100.0%; height: 100.0%;">Naif<br>Price: 16146.96 AED<br>Cluster: 0</div>`)[0];
+                popup_2117891edb382da84e93d4de74fc5213.setContent(html_8c54a0ad482c11cbfdead33a48de866d);
+            
+        
+
+        circle_marker_b0ebd52d30960d1da55994bb1586170b.bindPopup(popup_2117891edb382da84e93d4de74fc5213)
+        ;
+
+        
+    
+    
+            var circle_marker_80012997d5557ec76d6b7f67c000a6ba = L.circleMarker(
+                [25.2655388, 55.3225135],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_eece21891f482c0ab858a0e28e0482a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e1ede79b3912cd5931e839181fab3ca = $(`<div id="html_2e1ede79b3912cd5931e839181fab3ca" style="width: 100.0%; height: 100.0%;">Al Murqabat<br>Price: 16012.53 AED<br>Cluster: 0</div>`)[0];
+                popup_eece21891f482c0ab858a0e28e0482a4.setContent(html_2e1ede79b3912cd5931e839181fab3ca);
+            
+        
+
+        circle_marker_80012997d5557ec76d6b7f67c000a6ba.bindPopup(popup_eece21891f482c0ab858a0e28e0482a4)
+        ;
+
+        
+    
+    
+            var circle_marker_1255c823cb04f969c4410aa92a956ac3 = L.circleMarker(
+                [25.2559475, 55.3086012],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_b3ea72d0ecbdd5cbf89db341468bc9c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a8df8fdbcc54d4bc57929a1b0de3f3d0 = $(`<div id="html_a8df8fdbcc54d4bc57929a1b0de3f3d0" style="width: 100.0%; height: 100.0%;">Um Hurair 1<br>Price: 15174.02 AED<br>Cluster: 0</div>`)[0];
+                popup_b3ea72d0ecbdd5cbf89db341468bc9c1.setContent(html_a8df8fdbcc54d4bc57929a1b0de3f3d0);
+            
+        
+
+        circle_marker_1255c823cb04f969c4410aa92a956ac3.bindPopup(popup_b3ea72d0ecbdd5cbf89db341468bc9c1)
+        ;
+
+        
+    
+    
+            var circle_marker_ded2bf53316aa0e4ddd4267435ba158e = L.circleMarker(
+                [25.2374067, 55.3213344],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_34c32d53605401fff43e85ba33115f53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_507bb0d4cb5d047e8e635c1da21b5116 = $(`<div id="html_507bb0d4cb5d047e8e635c1da21b5116" style="width: 100.0%; height: 100.0%;">Um Hurair 2<br>Price: 15120.2 AED<br>Cluster: 0</div>`)[0];
+                popup_34c32d53605401fff43e85ba33115f53.setContent(html_507bb0d4cb5d047e8e635c1da21b5116);
+            
+        
+
+        circle_marker_ded2bf53316aa0e4ddd4267435ba158e.bindPopup(popup_34c32d53605401fff43e85ba33115f53)
+        ;
+
+        
+    
+    
+            var circle_marker_0f4d6e1d6044c064d00545a12c2803cd = L.circleMarker(
+                [25.2249103, 55.3337479],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_229eb48fbd8b26e41614d752448d3673 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65368babe7999d1826cfe10024aa2e50 = $(`<div id="html_65368babe7999d1826cfe10024aa2e50" style="width: 100.0%; height: 100.0%;">Al Jadaf<br>Price: 14045.225 AED<br>Cluster: 0</div>`)[0];
+                popup_229eb48fbd8b26e41614d752448d3673.setContent(html_65368babe7999d1826cfe10024aa2e50);
+            
+        
+
+        circle_marker_0f4d6e1d6044c064d00545a12c2803cd.bindPopup(popup_229eb48fbd8b26e41614d752448d3673)
+        ;
+
+        
+    
+    
+            var circle_marker_c86d435aeb31d626524f7c40aee25ce5 = L.circleMarker(
+                [25.0859166, 55.164938],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_2a740bf3d9d4194bb944a6d9206f90d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c220de6db84310913a629961368bb9f = $(`<div id="html_0c220de6db84310913a629961368bb9f" style="width: 100.0%; height: 100.0%;">Al Thanyah 3<br>Price: 13837.395 AED<br>Cluster: 0</div>`)[0];
+                popup_2a740bf3d9d4194bb944a6d9206f90d1.setContent(html_0c220de6db84310913a629961368bb9f);
+            
+        
+
+        circle_marker_c86d435aeb31d626524f7c40aee25ce5.bindPopup(popup_2a740bf3d9d4194bb944a6d9206f90d1)
+        ;
+
+        
+    
+    
+            var circle_marker_bfd2a40902052c2953b2136a5cddd1a0 = L.circleMarker(
+                [25.1068607, 55.3156251],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_a633aaceebab75c4fd7478323bf618c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cefd6e0e1e5c4d5c28e04e5e27ab5691 = $(`<div id="html_cefd6e0e1e5c4d5c28e04e5e27ab5691" style="width: 100.0%; height: 100.0%;">Wadi Al Safa 3<br>Price: 13701.39 AED<br>Cluster: 0</div>`)[0];
+                popup_a633aaceebab75c4fd7478323bf618c7.setContent(html_cefd6e0e1e5c4d5c28e04e5e27ab5691);
+            
+        
+
+        circle_marker_bfd2a40902052c2953b2136a5cddd1a0.bindPopup(popup_a633aaceebab75c4fd7478323bf618c7)
+        ;
+
+        
+    
+    
+            var circle_marker_06488a3e35fd5dede81054a771f69e36 = L.circleMarker(
+                [25.2531578, 55.3317832],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_8487dd688a1d13ebe01fe0011ee912d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7800099325421ac4329d1ed5b8b1d6c3 = $(`<div id="html_7800099325421ac4329d1ed5b8b1d6c3" style="width: 100.0%; height: 100.0%;">Port Saeed<br>Price: 13641.68 AED<br>Cluster: 0</div>`)[0];
+                popup_8487dd688a1d13ebe01fe0011ee912d6.setContent(html_7800099325421ac4329d1ed5b8b1d6c3);
+            
+        
+
+        circle_marker_06488a3e35fd5dede81054a771f69e36.bindPopup(popup_8487dd688a1d13ebe01fe0011ee912d6)
+        ;
+
+        
+    
+    
+            var circle_marker_452dbdf5bc3889f95e94e871b5f0bdf9 = L.circleMarker(
+                [25.0357683, 55.2458412],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_a4cda0f0fdfb897724d6dfd552535c28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8394b44d5df187f2e4a7247b05a47f10 = $(`<div id="html_8394b44d5df187f2e4a7247b05a47f10" style="width: 100.0%; height: 100.0%;">Al Hebiah 2<br>Price: 13513.51 AED<br>Cluster: 0</div>`)[0];
+                popup_a4cda0f0fdfb897724d6dfd552535c28.setContent(html_8394b44d5df187f2e4a7247b05a47f10);
+            
+        
+
+        circle_marker_452dbdf5bc3889f95e94e871b5f0bdf9.bindPopup(popup_a4cda0f0fdfb897724d6dfd552535c28)
+        ;
+
+        
+    
+    
+            var circle_marker_0399ade5c81cda624ef01d3f0a12e91a = L.circleMarker(
+                [25.1737427, 55.3813574],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_7e866c6f005299f276e60036867c3095 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c8c560aad5b87d387e4e1fe30968a34 = $(`<div id="html_1c8c560aad5b87d387e4e1fe30968a34" style="width: 100.0%; height: 100.0%;">Ras Al Khor Industrial 3<br>Price: 13277.0 AED<br>Cluster: 0</div>`)[0];
+                popup_7e866c6f005299f276e60036867c3095.setContent(html_1c8c560aad5b87d387e4e1fe30968a34);
+            
+        
+
+        circle_marker_0399ade5c81cda624ef01d3f0a12e91a.bindPopup(popup_7e866c6f005299f276e60036867c3095)
+        ;
+
+        
+    
+    
+            var circle_marker_c0f162cb65dc51f7ab91b7acb81a494f = L.circleMarker(
+                [24.9539308, 55.1048843],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_a75357114d0f4586bb6db6313a9f8481 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_417845eaddf12b8240cae6055d7abeea = $(`<div id="html_417845eaddf12b8240cae6055d7abeea" style="width: 100.0%; height: 100.0%;">Jabal Ali Industrial 2<br>Price: 13210.95 AED<br>Cluster: 0</div>`)[0];
+                popup_a75357114d0f4586bb6db6313a9f8481.setContent(html_417845eaddf12b8240cae6055d7abeea);
+            
+        
+
+        circle_marker_c0f162cb65dc51f7ab91b7acb81a494f.bindPopup(popup_a75357114d0f4586bb6db6313a9f8481)
+        ;
+
+        
+    
+    
+            var circle_marker_86a55daf82c7c5d203fd084b89884f79 = L.circleMarker(
+                [25.2152399, 55.3639198],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_88cb8c2c56b053597e9a1ad81c4ef91e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_019c2e60e9bded8a669e82beb555ceeb = $(`<div id="html_019c2e60e9bded8a669e82beb555ceeb" style="width: 100.0%; height: 100.0%;">Al Kheeran<br>Price: 12940.8 AED<br>Cluster: 0</div>`)[0];
+                popup_88cb8c2c56b053597e9a1ad81c4ef91e.setContent(html_019c2e60e9bded8a669e82beb555ceeb);
+            
+        
+
+        circle_marker_86a55daf82c7c5d203fd084b89884f79.bindPopup(popup_88cb8c2c56b053597e9a1ad81c4ef91e)
+        ;
+
+        
+    
+    
+            var circle_marker_866e1637b0d2570d0e213aac167cc86c = L.circleMarker(
+                [25.21948395, 55.28398063889435],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_d5f87508c6d3e14c9f9b4fe09bcea835 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_041c6b1adfac699ac5f49621f1f4bb4f = $(`<div id="html_041c6b1adfac699ac5f49621f1f4bb4f" style="width: 100.0%; height: 100.0%;">Trade Center 2<br>Price: 12737.97 AED<br>Cluster: 0</div>`)[0];
+                popup_d5f87508c6d3e14c9f9b4fe09bcea835.setContent(html_041c6b1adfac699ac5f49621f1f4bb4f);
+            
+        
+
+        circle_marker_866e1637b0d2570d0e213aac167cc86c.bindPopup(popup_d5f87508c6d3e14c9f9b4fe09bcea835)
+        ;
+
+        
+    
+    
+            var circle_marker_d9d3c0e9d7c7f4e74b4887e0e3bb71b4 = L.circleMarker(
+                [25.0077507, 55.3637056],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_8981f67e0a555f0d0f1efb8176c9e085 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d1832e09811c382592dba318420001a = $(`<div id="html_3d1832e09811c382592dba318420001a" style="width: 100.0%; height: 100.0%;">Madinat Hind 4<br>Price: 12628.29 AED<br>Cluster: 0</div>`)[0];
+                popup_8981f67e0a555f0d0f1efb8176c9e085.setContent(html_3d1832e09811c382592dba318420001a);
+            
+        
+
+        circle_marker_d9d3c0e9d7c7f4e74b4887e0e3bb71b4.bindPopup(popup_8981f67e0a555f0d0f1efb8176c9e085)
+        ;
+
+        
+    
+    
+            var circle_marker_a375bfb7af07fd7b7aa25a725e64d69e = L.circleMarker(
+                [24.9969732, 55.2167403],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_52ec5fac6bf04aaf2790edf51cbb13f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7271c26260ee574647a61ef1f342d2fd = $(`<div id="html_7271c26260ee574647a61ef1f342d2fd" style="width: 100.0%; height: 100.0%;">Me'Aisem 2<br>Price: 12553.67 AED<br>Cluster: 0</div>`)[0];
+                popup_52ec5fac6bf04aaf2790edf51cbb13f9.setContent(html_7271c26260ee574647a61ef1f342d2fd);
+            
+        
+
+        circle_marker_a375bfb7af07fd7b7aa25a725e64d69e.bindPopup(popup_52ec5fac6bf04aaf2790edf51cbb13f9)
+        ;
+
+        
+    
+    
+            var circle_marker_5dc6462742164880bc8e0d20b979e107 = L.circleMarker(
+                [25.0171721, 55.2553972],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_5770c95a06873465561ab0b7138f3f23 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cede79b394c00cb6069e7f9d7d451050 = $(`<div id="html_cede79b394c00cb6069e7f9d7d451050" style="width: 100.0%; height: 100.0%;">Al Hebiah 3<br>Price: 12319.075 AED<br>Cluster: 0</div>`)[0];
+                popup_5770c95a06873465561ab0b7138f3f23.setContent(html_cede79b394c00cb6069e7f9d7d451050);
+            
+        
+
+        circle_marker_5dc6462742164880bc8e0d20b979e107.bindPopup(popup_5770c95a06873465561ab0b7138f3f23)
+        ;
+
+        
+    
+    
+            var circle_marker_b4bdcfef3ed6b051f2dee69164ba1b0c = L.circleMarker(
+                [25.2542057, 55.2879667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_0ce31110f1030e763a637233eb54ce91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d0b14f2be977f7dac831922eaa9c0cd = $(`<div id="html_8d0b14f2be977f7dac831922eaa9c0cd" style="width: 100.0%; height: 100.0%;">Al Raffa<br>Price: 12313.21 AED<br>Cluster: 0</div>`)[0];
+                popup_0ce31110f1030e763a637233eb54ce91.setContent(html_8d0b14f2be977f7dac831922eaa9c0cd);
+            
+        
+
+        circle_marker_b4bdcfef3ed6b051f2dee69164ba1b0c.bindPopup(popup_0ce31110f1030e763a637233eb54ce91)
+        ;
+
+        
+    
+    
+            var circle_marker_abb54bebfd9fdfe290f49ce704cfe7f2 = L.circleMarker(
+                [25.0594016, 55.208975],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_2ab8f8e72df88ec566462152647cd42d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b52c2e2f7cf3b1224b531f5417a1c36f = $(`<div id="html_b52c2e2f7cf3b1224b531f5417a1c36f" style="width: 100.0%; height: 100.0%;">Al Barsha South 4<br>Price: 12057.67 AED<br>Cluster: 0</div>`)[0];
+                popup_2ab8f8e72df88ec566462152647cd42d.setContent(html_b52c2e2f7cf3b1224b531f5417a1c36f);
+            
+        
+
+        circle_marker_abb54bebfd9fdfe290f49ce704cfe7f2.bindPopup(popup_2ab8f8e72df88ec566462152647cd42d)
+        ;
+
+        
+    
+    
+            var circle_marker_7b480cd8fe7780a35577298bcff67db3 = L.circleMarker(
+                [25.0160001, 55.1859115],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_ee68ddaa7a266f519fa9ab60ca813497 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_810b01d629207bf259626eabe3e7bf53 = $(`<div id="html_810b01d629207bf259626eabe3e7bf53" style="width: 100.0%; height: 100.0%;">Me'Aisem 1<br>Price: 11630.395 AED<br>Cluster: 0</div>`)[0];
+                popup_ee68ddaa7a266f519fa9ab60ca813497.setContent(html_810b01d629207bf259626eabe3e7bf53);
+            
+        
+
+        circle_marker_7b480cd8fe7780a35577298bcff67db3.bindPopup(popup_ee68ddaa7a266f519fa9ab60ca813497)
+        ;
+
+        
+    
+    
+            var circle_marker_f01e20118793b1a327d55b53f54032a6 = L.circleMarker(
+                [25.0238328, 55.1319042],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_c9ea41d6c5703b5e46c00e30042994d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3a49dbc9c92b940dc316bd22804117f = $(`<div id="html_e3a49dbc9c92b940dc316bd22804117f" style="width: 100.0%; height: 100.0%;">Jabal Ali 1<br>Price: 11517.35 AED<br>Cluster: 0</div>`)[0];
+                popup_c9ea41d6c5703b5e46c00e30042994d6.setContent(html_e3a49dbc9c92b940dc316bd22804117f);
+            
+        
+
+        circle_marker_f01e20118793b1a327d55b53f54032a6.bindPopup(popup_c9ea41d6c5703b5e46c00e30042994d6)
+        ;
+
+        
+    
+    
+            var circle_marker_c0128953d17c32fcb0d4e9da551edee6 = L.circleMarker(
+                [24.890272, 55.1428455],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_0c6889b2005531f6887d8f16ad61a4a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50f8a48ba5faefb316da19c96104837c = $(`<div id="html_50f8a48ba5faefb316da19c96104837c" style="width: 100.0%; height: 100.0%;">Madinat Al Mataar<br>Price: 11119.58 AED<br>Cluster: 0</div>`)[0];
+                popup_0c6889b2005531f6887d8f16ad61a4a4.setContent(html_50f8a48ba5faefb316da19c96104837c);
+            
+        
+
+        circle_marker_c0128953d17c32fcb0d4e9da551edee6.bindPopup(popup_0c6889b2005531f6887d8f16ad61a4a4)
+        ;
+
+        
+    
+    
+            var circle_marker_b86b64a9506575cc5a348353325d65b9 = L.circleMarker(
+                [25.2211708, 55.4224204],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_6522d88c0d9bf3da226a5c89ce28ad1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c65225f275b0af4d744daf4f9a75016 = $(`<div id="html_2c65225f275b0af4d744daf4f9a75016" style="width: 100.0%; height: 100.0%;">Mirdif<br>Price: 11007.39 AED<br>Cluster: 0</div>`)[0];
+                popup_6522d88c0d9bf3da226a5c89ce28ad1a.setContent(html_2c65225f275b0af4d744daf4f9a75016);
+            
+        
+
+        circle_marker_b86b64a9506575cc5a348353325d65b9.bindPopup(popup_6522d88c0d9bf3da226a5c89ce28ad1a)
+        ;
+
+        
+    
+    
+            var circle_marker_955cc72f097289ff634188de0cdb5493 = L.circleMarker(
+                [25.1071127, 55.1984575],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_3f3ee0849b6f70a97c8bc7daa117f08e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e17ac49822d0d0fbb5e87e286fa0d4c6 = $(`<div id="html_e17ac49822d0d0fbb5e87e286fa0d4c6" style="width: 100.0%; height: 100.0%;">Al Barsha First<br>Price: 10992.63 AED<br>Cluster: 0</div>`)[0];
+                popup_3f3ee0849b6f70a97c8bc7daa117f08e.setContent(html_e17ac49822d0d0fbb5e87e286fa0d4c6);
+            
+        
+
+        circle_marker_955cc72f097289ff634188de0cdb5493.bindPopup(popup_3f3ee0849b6f70a97c8bc7daa117f08e)
+        ;
+
+        
+    
+    
+            var circle_marker_cf8f856cb7f50f739e2996bde2eb4d7b = L.circleMarker(
+                [25.0029883, 55.4387395],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_289313af213232ea4d06cac85df6ee3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1f39e59525f3b0da31810aae9929cf9a = $(`<div id="html_1f39e59525f3b0da31810aae9929cf9a" style="width: 100.0%; height: 100.0%;">Al Yufrah 1<br>Price: 10980.83 AED<br>Cluster: 0</div>`)[0];
+                popup_289313af213232ea4d06cac85df6ee3b.setContent(html_1f39e59525f3b0da31810aae9929cf9a);
+            
+        
+
+        circle_marker_cf8f856cb7f50f739e2996bde2eb4d7b.bindPopup(popup_289313af213232ea4d06cac85df6ee3b)
+        ;
+
+        
+    
+    
+            var circle_marker_71dfa7a3c5aa838f58afe37fa8d6a2dd = L.circleMarker(
+                [24.9951615, 55.2885576],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_31f2b691baf99be859fdc65643081916 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b81589a5c4d311394f4765ad9daecc7 = $(`<div id="html_6b81589a5c4d311394f4765ad9daecc7" style="width: 100.0%; height: 100.0%;">Al Yelayiss 2<br>Price: 10921.685 AED<br>Cluster: 0</div>`)[0];
+                popup_31f2b691baf99be859fdc65643081916.setContent(html_6b81589a5c4d311394f4765ad9daecc7);
+            
+        
+
+        circle_marker_71dfa7a3c5aa838f58afe37fa8d6a2dd.bindPopup(popup_31f2b691baf99be859fdc65643081916)
+        ;
+
+        
+    
+    
+            var circle_marker_d844fe28c094344ebda0b46bdb3f0964 = L.circleMarker(
+                [25.2321563, 55.5563174],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_97d5fa879b7a6d2199100094eab4652f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5edaf2270f8ee9f79bb072f3bcf23f19 = $(`<div id="html_5edaf2270f8ee9f79bb072f3bcf23f19" style="width: 100.0%; height: 100.0%;">Al Ttay<br>Price: 10763.92 AED<br>Cluster: 0</div>`)[0];
+                popup_97d5fa879b7a6d2199100094eab4652f.setContent(html_5edaf2270f8ee9f79bb072f3bcf23f19);
+            
+        
+
+        circle_marker_d844fe28c094344ebda0b46bdb3f0964.bindPopup(popup_97d5fa879b7a6d2199100094eab4652f)
+        ;
+
+        
+    
+    
+            var circle_marker_cb1c9ef97b5b0a9a659818aaee03c70e = L.circleMarker(
+                [24.8578572, 55.0608716],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_0d452b75e893c49acec06e242b16475f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c0c6d835a14e60de9f5f17e1a079ce4e = $(`<div id="html_c0c6d835a14e60de9f5f17e1a079ce4e" style="width: 100.0%; height: 100.0%;">Saih Shuaib 2<br>Price: 10763.79 AED<br>Cluster: 0</div>`)[0];
+                popup_0d452b75e893c49acec06e242b16475f.setContent(html_c0c6d835a14e60de9f5f17e1a079ce4e);
+            
+        
+
+        circle_marker_cb1c9ef97b5b0a9a659818aaee03c70e.bindPopup(popup_0d452b75e893c49acec06e242b16475f)
+        ;
+
+        
+    
+    
+            var circle_marker_02d1badd7d86e7fad3951cfc2daf6634 = L.circleMarker(
+                [25.0842543, 55.3729759],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_c2d61dd92fd5c6cdfe5ea79855e0f8a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3000a6a31baaa1ac1078e6e822f4a9cf = $(`<div id="html_3000a6a31baaa1ac1078e6e822f4a9cf" style="width: 100.0%; height: 100.0%;">Wadi Al Safa 5<br>Price: 10575.83 AED<br>Cluster: 0</div>`)[0];
+                popup_c2d61dd92fd5c6cdfe5ea79855e0f8a1.setContent(html_3000a6a31baaa1ac1078e6e822f4a9cf);
+            
+        
+
+        circle_marker_02d1badd7d86e7fad3951cfc2daf6634.bindPopup(popup_c2d61dd92fd5c6cdfe5ea79855e0f8a1)
+        ;
+
+        
+    
+    
+            var circle_marker_510c0c779a23f26a6c1f4fcc69cbdad5 = L.circleMarker(
+                [24.9598549, 55.3837443],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_f7165df76a06e1483a7893de1efffc95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_769ad02c8f5d6f5ffcdfe275d905d0e9 = $(`<div id="html_769ad02c8f5d6f5ffcdfe275d905d0e9" style="width: 100.0%; height: 100.0%;">Al Yufrah 2<br>Price: 10245.9 AED<br>Cluster: 0</div>`)[0];
+                popup_f7165df76a06e1483a7893de1efffc95.setContent(html_769ad02c8f5d6f5ffcdfe275d905d0e9);
+            
+        
+
+        circle_marker_510c0c779a23f26a6c1f4fcc69cbdad5.bindPopup(popup_f7165df76a06e1483a7893de1efffc95)
+        ;
+
+        
+    
+    
+            var circle_marker_679d2a6daa32498142c6fe14e13a4b5a = L.circleMarker(
+                [25.0486208, 55.2403706],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_a77fb8259259211f588ada7916c34635 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d6432c5c52cbd96a00ecd67c05ced3ac = $(`<div id="html_d6432c5c52cbd96a00ecd67c05ced3ac" style="width: 100.0%; height: 100.0%;">Al Hebiah 1<br>Price: 10194.4 AED<br>Cluster: 0</div>`)[0];
+                popup_a77fb8259259211f588ada7916c34635.setContent(html_d6432c5c52cbd96a00ecd67c05ced3ac);
+            
+        
+
+        circle_marker_679d2a6daa32498142c6fe14e13a4b5a.bindPopup(popup_a77fb8259259211f588ada7916c34635)
+        ;
+
+        
+    
+    
+            var circle_marker_5e04df3c848948a3019a04f449bc1956 = L.circleMarker(
+                [25.0352976, 55.2826859],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_40034fbab15ec067e8075f64b1546f55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_333572878545cec22702ed8b77ceb575 = $(`<div id="html_333572878545cec22702ed8b77ceb575" style="width: 100.0%; height: 100.0%;">Wadi Al Safa 7<br>Price: 9653.29 AED<br>Cluster: 0</div>`)[0];
+                popup_40034fbab15ec067e8075f64b1546f55.setContent(html_333572878545cec22702ed8b77ceb575);
+            
+        
+
+        circle_marker_5e04df3c848948a3019a04f449bc1956.bindPopup(popup_40034fbab15ec067e8075f64b1546f55)
+        ;
+
+        
+    
+    
+            var circle_marker_2259d130852a46cc6d44434e83ee3d81 = L.circleMarker(
+                [25.0334367, 55.2205444],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_6b881aafddb212fd0df00691b0cbd1ce = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4ee035088aa3306efd87990ee5315a1 = $(`<div id="html_d4ee035088aa3306efd87990ee5315a1" style="width: 100.0%; height: 100.0%;">Al Hebiah 4<br>Price: 9591.97 AED<br>Cluster: 0</div>`)[0];
+                popup_6b881aafddb212fd0df00691b0cbd1ce.setContent(html_d4ee035088aa3306efd87990ee5315a1);
+            
+        
+
+        circle_marker_2259d130852a46cc6d44434e83ee3d81.bindPopup(popup_6b881aafddb212fd0df00691b0cbd1ce)
+        ;
+
+        
+    
+    
+            var circle_marker_ef26dbb98b971ce78f4f7073a108a365 = L.circleMarker(
+                [25.0975674, 55.1771333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_2083c903715903f24e32142041a1ba1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9201805ca36fd889c1d313911be10734 = $(`<div id="html_9201805ca36fd889c1d313911be10734" style="width: 100.0%; height: 100.0%;">Al Thanyah 1<br>Price: 9499.945 AED<br>Cluster: 0</div>`)[0];
+                popup_2083c903715903f24e32142041a1ba1f.setContent(html_9201805ca36fd889c1d313911be10734);
+            
+        
+
+        circle_marker_ef26dbb98b971ce78f4f7073a108a365.bindPopup(popup_2083c903715903f24e32142041a1ba1f)
+        ;
+
+        
+    
+    
+            var circle_marker_1ebd03b1afa4cbb7a755cf290d618738 = L.circleMarker(
+                [24.9824336, 55.16047467288969],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_d6546eed0ef217e87a1afc928d326611 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb81cae1317f7ccdf6b2f36aff7aa4ce = $(`<div id="html_bb81cae1317f7ccdf6b2f36aff7aa4ce" style="width: 100.0%; height: 100.0%;">Dubai Investment Park 1<br>Price: 9415.285 AED<br>Cluster: 0</div>`)[0];
+                popup_d6546eed0ef217e87a1afc928d326611.setContent(html_bb81cae1317f7ccdf6b2f36aff7aa4ce);
+            
+        
+
+        circle_marker_1ebd03b1afa4cbb7a755cf290d618738.bindPopup(popup_d6546eed0ef217e87a1afc928d326611)
+        ;
+
+        
+    
+    
+            var circle_marker_273d64ae198ae8b98674704964c30dca = L.circleMarker(
+                [25.0164904, 55.3111582],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_10677929e6787342dc7c133a0bfcf3b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f14df3a7d53ce097e72cff9caf8b9dab = $(`<div id="html_f14df3a7d53ce097e72cff9caf8b9dab" style="width: 100.0%; height: 100.0%;">Al Yelayiss 1<br>Price: 9148.29 AED<br>Cluster: 0</div>`)[0];
+                popup_10677929e6787342dc7c133a0bfcf3b6.setContent(html_f14df3a7d53ce097e72cff9caf8b9dab);
+            
+        
+
+        circle_marker_273d64ae198ae8b98674704964c30dca.bindPopup(popup_10677929e6787342dc7c133a0bfcf3b6)
+        ;
+
+        
+    
+    
+            var circle_marker_dc7442d8f3a4c09f2e9635793e3d80c4 = L.circleMarker(
+                [25.1448185, 55.2144527],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_a13bb941fd9ed5b1b1a3a395c12cc71c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92a57ba7adb9edb29be61ebf3cfef1ba = $(`<div id="html_92a57ba7adb9edb29be61ebf3cfef1ba" style="width: 100.0%; height: 100.0%;">Al Manara<br>Price: 8611.1 AED<br>Cluster: 0</div>`)[0];
+                popup_a13bb941fd9ed5b1b1a3a395c12cc71c.setContent(html_92a57ba7adb9edb29be61ebf3cfef1ba);
+            
+        
+
+        circle_marker_dc7442d8f3a4c09f2e9635793e3d80c4.bindPopup(popup_a13bb941fd9ed5b1b1a3a395c12cc71c)
+        ;
+
+        
+    
+    
+            var circle_marker_9ef6388e4eb6a4bc60edcd65d3f6a337 = L.circleMarker(
+                [25.2782987, 55.3395005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_e2d336f5cbc4a99c0db7d6580b78d96f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96da5f4326f711914ce1def49a348c11 = $(`<div id="html_96da5f4326f711914ce1def49a348c11" style="width: 100.0%; height: 100.0%;">Hor Al Anz<br>Price: 8586.509999999998 AED<br>Cluster: 0</div>`)[0];
+                popup_e2d336f5cbc4a99c0db7d6580b78d96f.setContent(html_96da5f4326f711914ce1def49a348c11);
+            
+        
+
+        circle_marker_9ef6388e4eb6a4bc60edcd65d3f6a337.bindPopup(popup_e2d336f5cbc4a99c0db7d6580b78d96f)
+        ;
+
+        
+    
+    
+            var circle_marker_3761ce990527cbf100189eb403943708 = L.circleMarker(
+                [25.2620458, 55.2936315],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_848e54a20d1ec19f106dbd70537ea6c7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7078177364268240a23279cc4e3aa9bc = $(`<div id="html_7078177364268240a23279cc4e3aa9bc" style="width: 100.0%; height: 100.0%;">Al Suq Al Kabeer<br>Price: 8404.62 AED<br>Cluster: 0</div>`)[0];
+                popup_848e54a20d1ec19f106dbd70537ea6c7.setContent(html_7078177364268240a23279cc4e3aa9bc);
+            
+        
+
+        circle_marker_3761ce990527cbf100189eb403943708.bindPopup(popup_848e54a20d1ec19f106dbd70537ea6c7)
+        ;
+
+        
+    
+    
+            var circle_marker_e85938f96cb0e79e04a600807aa8ba86 = L.circleMarker(
+                [25.0492848, 55.2657205],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_4e79e96aff35e97efb221738af2aae49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e40401f8c3de9641ddb9801f0a715d9f = $(`<div id="html_e40401f8c3de9641ddb9801f0a715d9f" style="width: 100.0%; height: 100.0%;">Wadi Al Safa 6<br>Price: 8226.105 AED<br>Cluster: 0</div>`)[0];
+                popup_4e79e96aff35e97efb221738af2aae49.setContent(html_e40401f8c3de9641ddb9801f0a715d9f);
+            
+        
+
+        circle_marker_e85938f96cb0e79e04a600807aa8ba86.bindPopup(popup_4e79e96aff35e97efb221738af2aae49)
+        ;
+
+        
+    
+    
+            var circle_marker_606a47ff046ae0eede9c6ddd89e18010 = L.circleMarker(
+                [25.1738662, 55.2187829],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_8824e6331e33b9cabced5fcedccb75fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_455b2a38e5b15d5d1926b266013f863e = $(`<div id="html_455b2a38e5b15d5d1926b266013f863e" style="width: 100.0%; height: 100.0%;">Jumeirah 3<br>Price: 7990.55 AED<br>Cluster: 2</div>`)[0];
+                popup_8824e6331e33b9cabced5fcedccb75fd.setContent(html_455b2a38e5b15d5d1926b266013f863e);
+            
+        
+
+        circle_marker_606a47ff046ae0eede9c6ddd89e18010.bindPopup(popup_8824e6331e33b9cabced5fcedccb75fd)
+        ;
+
+        
+    
+    
+            var circle_marker_1b2078c571a2f15e905fa574694dd278 = L.circleMarker(
+                [25.1219309, 55.3850506],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_e85723b830b06b192bf7c3bea72a779a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4214cc343985f6c4cf2b4fb2650d8be0 = $(`<div id="html_4214cc343985f6c4cf2b4fb2650d8be0" style="width: 100.0%; height: 100.0%;">Nadd Hessa<br>Price: 7805.91 AED<br>Cluster: 2</div>`)[0];
+                popup_e85723b830b06b192bf7c3bea72a779a.setContent(html_4214cc343985f6c4cf2b4fb2650d8be0);
+            
+        
+
+        circle_marker_1b2078c571a2f15e905fa574694dd278.bindPopup(popup_e85723b830b06b192bf7c3bea72a779a)
+        ;
+
+        
+    
+    
+            var circle_marker_1455bbaa905fd0153ecc7414ae5ff8bf = L.circleMarker(
+                [25.1413297, 55.4024918],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_5a79ba78ca3f2d94dc051664078e74ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_86bd157f91eebca62f7b026258d46dce = $(`<div id="html_86bd157f91eebca62f7b026258d46dce" style="width: 100.0%; height: 100.0%;">Warsan 4<br>Price: 7677.895 AED<br>Cluster: 2</div>`)[0];
+                popup_5a79ba78ca3f2d94dc051664078e74ad.setContent(html_86bd157f91eebca62f7b026258d46dce);
+            
+        
+
+        circle_marker_1455bbaa905fd0153ecc7414ae5ff8bf.bindPopup(popup_5a79ba78ca3f2d94dc051664078e74ad)
+        ;
+
+        
+    
+    
+            var circle_marker_dde15a97458de7c50b1641a37290fcb9 = L.circleMarker(
+                [25.1266839, 55.2079196],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_88884d840ce0434e319f877cf3ecbcba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c4b36773c71aa0a595dd1eefe17363c = $(`<div id="html_8c4b36773c71aa0a595dd1eefe17363c" style="width: 100.0%; height: 100.0%;">Um Al Sheif<br>Price: 7575.975 AED<br>Cluster: 2</div>`)[0];
+                popup_88884d840ce0434e319f877cf3ecbcba.setContent(html_8c4b36773c71aa0a595dd1eefe17363c);
+            
+        
+
+        circle_marker_dde15a97458de7c50b1641a37290fcb9.bindPopup(popup_88884d840ce0434e319f877cf3ecbcba)
+        ;
+
+        
+    
+    
+            var circle_marker_d7b8a8e0be6bb6b8a18a325b7270c97b = L.circleMarker(
+                [25.2246261, 55.2684831],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_744f12fb67f4b46ac1b68a7fe714f0a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bedf140198e74217f917793a28dcef7 = $(`<div id="html_5bedf140198e74217f917793a28dcef7" style="width: 100.0%; height: 100.0%;">Al Bada<br>Price: 7534.71 AED<br>Cluster: 2</div>`)[0];
+                popup_744f12fb67f4b46ac1b68a7fe714f0a9.setContent(html_5bedf140198e74217f917793a28dcef7);
+            
+        
+
+        circle_marker_d7b8a8e0be6bb6b8a18a325b7270c97b.bindPopup(popup_744f12fb67f4b46ac1b68a7fe714f0a9)
+        ;
+
+        
+    
+    
+            var circle_marker_3e539729eb4e25bcf274945677645e5e = L.circleMarker(
+                [25.2741549, 55.3225565],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_926f7e9afc10cda4543a17de97e1badd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_015d0f4507efba60d717961972f5d946 = $(`<div id="html_015d0f4507efba60d717961972f5d946" style="width: 100.0%; height: 100.0%;">Al Muteena<br>Price: 7244.41 AED<br>Cluster: 2</div>`)[0];
+                popup_926f7e9afc10cda4543a17de97e1badd.setContent(html_015d0f4507efba60d717961972f5d946);
+            
+        
+
+        circle_marker_3e539729eb4e25bcf274945677645e5e.bindPopup(popup_926f7e9afc10cda4543a17de97e1badd)
+        ;
+
+        
+    
+    
+            var circle_marker_d33e1d71dc7f2d09cc2c9808853126ed = L.circleMarker(
+                [25.2768811, 55.3720265],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_5062ef04011ce0c8be81658dfbbb2313 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1efe5b53181e29d0042be0498ad001f = $(`<div id="html_d1efe5b53181e29d0042be0498ad001f" style="width: 100.0%; height: 100.0%;">Al Qusais 1<br>Price: 7035.42 AED<br>Cluster: 2</div>`)[0];
+                popup_5062ef04011ce0c8be81658dfbbb2313.setContent(html_d1efe5b53181e29d0042be0498ad001f);
+            
+        
+
+        circle_marker_d33e1d71dc7f2d09cc2c9808853126ed.bindPopup(popup_5062ef04011ce0c8be81658dfbbb2313)
+        ;
+
+        
+    
+    
+            var circle_marker_37a59b5c1696a3b24e389ad6267c9153 = L.circleMarker(
+                [25.2923312, 55.3993786],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_8d64f189546850ac91bf9ad3ad646cde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62afb20bf1a6e00c3edecb76e9249d33 = $(`<div id="html_62afb20bf1a6e00c3edecb76e9249d33" style="width: 100.0%; height: 100.0%;">Al Qusais Industrial 4<br>Price: 6945.48 AED<br>Cluster: 2</div>`)[0];
+                popup_8d64f189546850ac91bf9ad3ad646cde.setContent(html_62afb20bf1a6e00c3edecb76e9249d33);
+            
+        
+
+        circle_marker_37a59b5c1696a3b24e389ad6267c9153.bindPopup(popup_8d64f189546850ac91bf9ad3ad646cde)
+        ;
+
+        
+    
+    
+            var circle_marker_d47b437789e9a6482f2140bb371a062c = L.circleMarker(
+                [24.9775987, 55.0910742],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_092752e4bd9016ef7acd276475dd0cee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f1c0add3b9bdf5b6d5e93b21b71a611 = $(`<div id="html_9f1c0add3b9bdf5b6d5e93b21b71a611" style="width: 100.0%; height: 100.0%;">Jabal Ali<br>Price: 6521.74 AED<br>Cluster: 2</div>`)[0];
+                popup_092752e4bd9016ef7acd276475dd0cee.setContent(html_9f1c0add3b9bdf5b6d5e93b21b71a611);
+            
+        
+
+        circle_marker_d47b437789e9a6482f2140bb371a062c.bindPopup(popup_092752e4bd9016ef7acd276475dd0cee)
+        ;
+
+        
+    
+    
+            var circle_marker_30cfa1fd438b438788ddbbb61021adc7 = L.circleMarker(
+                [25.0990097, 55.3532609],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_dccd1d6505c1483847738439c9527553 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3aa4f122d774a7051beeefc7c26c3331 = $(`<div id="html_3aa4f122d774a7051beeefc7c26c3331" style="width: 100.0%; height: 100.0%;">Wadi Al Safa 2<br>Price: 6505.33 AED<br>Cluster: 2</div>`)[0];
+                popup_dccd1d6505c1483847738439c9527553.setContent(html_3aa4f122d774a7051beeefc7c26c3331);
+            
+        
+
+        circle_marker_30cfa1fd438b438788ddbbb61021adc7.bindPopup(popup_dccd1d6505c1483847738439c9527553)
+        ;
+
+        
+    
+    
+            var circle_marker_9613873e2ad543b5e5f70ef936d99d35 = L.circleMarker(
+                [25.1597355, 55.3436278],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_446bbd3d3ae65f88ee06be6098613995 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcb907fe2ed4fa9cf23b212967c32047 = $(`<div id="html_dcb907fe2ed4fa9cf23b212967c32047" style="width: 100.0%; height: 100.0%;">Nad Al Shiba<br>Price: 6475.16 AED<br>Cluster: 2</div>`)[0];
+                popup_446bbd3d3ae65f88ee06be6098613995.setContent(html_dcb907fe2ed4fa9cf23b212967c32047);
+            
+        
+
+        circle_marker_9613873e2ad543b5e5f70ef936d99d35.bindPopup(popup_446bbd3d3ae65f88ee06be6098613995)
+        ;
+
+        
+    
+    
+            var circle_marker_bfd5f464cd130693f567cf19a628418a = L.circleMarker(
+                [25.19029595, 55.429248781359654],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_b1ec3c5a409ce9fe94005e5f5e3a9fb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_26962ba75533dbb82b75818829191f66 = $(`<div id="html_26962ba75533dbb82b75818829191f66" style="width: 100.0%; height: 100.0%;">Al Warqa 1<br>Price: 6243.05 AED<br>Cluster: 2</div>`)[0];
+                popup_b1ec3c5a409ce9fe94005e5f5e3a9fb8.setContent(html_26962ba75533dbb82b75818829191f66);
+            
+        
+
+        circle_marker_bfd5f464cd130693f567cf19a628418a.bindPopup(popup_b1ec3c5a409ce9fe94005e5f5e3a9fb8)
+        ;
+
+        
+    
+    
+            var circle_marker_2f1460cc72e0af5a286de58915751def = L.circleMarker(
+                [24.9482377, 55.0132018],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_503eda9de1cce9f2a4b88cca1258f541 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c70292a48998886b22f2333bb61eb7c = $(`<div id="html_9c70292a48998886b22f2333bb61eb7c" style="width: 100.0%; height: 100.0%;">Hessyan 1<br>Price: 5891.86 AED<br>Cluster: 2</div>`)[0];
+                popup_503eda9de1cce9f2a4b88cca1258f541.setContent(html_9c70292a48998886b22f2333bb61eb7c);
+            
+        
+
+        circle_marker_2f1460cc72e0af5a286de58915751def.bindPopup(popup_503eda9de1cce9f2a4b88cca1258f541)
+        ;
+
+        
+    
+    
+            var circle_marker_e6fd0f1134909b7a25e06605b65d9bc3 = L.circleMarker(
+                [25.2860287, 55.328865],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_ffe85f0f51f9874f55943e6ee5ba45a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af743136d72d9b1eb9e6fbfc031a12ce = $(`<div id="html_af743136d72d9b1eb9e6fbfc031a12ce" style="width: 100.0%; height: 100.0%;">Abu Hail<br>Price: 5687.69 AED<br>Cluster: 2</div>`)[0];
+                popup_ffe85f0f51f9874f55943e6ee5ba45a7.setContent(html_af743136d72d9b1eb9e6fbfc031a12ce);
+            
+        
+
+        circle_marker_e6fd0f1134909b7a25e06605b65d9bc3.bindPopup(popup_ffe85f0f51f9874f55943e6ee5ba45a7)
+        ;
+
+        
+    
+    
+            var circle_marker_04d9c76efcdb6013bcb69a8bf640c5ef = L.circleMarker(
+                [25.251801, 55.29777548332489],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_c26587e8449628dbd122a1a1377ed1f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e02f28f39200b1da0489cce353162f6b = $(`<div id="html_e02f28f39200b1da0489cce353162f6b" style="width: 100.0%; height: 100.0%;">Mankhool<br>Price: 5436.18 AED<br>Cluster: 2</div>`)[0];
+                popup_c26587e8449628dbd122a1a1377ed1f3.setContent(html_e02f28f39200b1da0489cce353162f6b);
+            
+        
+
+        circle_marker_04d9c76efcdb6013bcb69a8bf640c5ef.bindPopup(popup_c26587e8449628dbd122a1a1377ed1f3)
+        ;
+
+        
+    
+    
+            var circle_marker_884d59f85fac28692865804a427da19a = L.circleMarker(
+                [24.9985748, 55.1215037],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_0337664612d383463cb684e4e4d0a63d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab9cfe9c8151f50ddedceab80715dc1e = $(`<div id="html_ab9cfe9c8151f50ddedceab80715dc1e" style="width: 100.0%; height: 100.0%;">Jabal Ali Industrial 1<br>Price: 5381.96 AED<br>Cluster: 2</div>`)[0];
+                popup_0337664612d383463cb684e4e4d0a63d.setContent(html_ab9cfe9c8151f50ddedceab80715dc1e);
+            
+        
+
+        circle_marker_884d59f85fac28692865804a427da19a.bindPopup(popup_0337664612d383463cb684e4e4d0a63d)
+        ;
+
+        
+    
+    
+            var circle_marker_9f2ff497eebf34dbb8fb3a312fd2eefd = L.circleMarker(
+                [25.176589, 55.413324],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_c832d0b67d33e5652aa364c988088aed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4656e034bc4b0fc8c540e1a1eba8494e = $(`<div id="html_4656e034bc4b0fc8c540e1a1eba8494e" style="width: 100.0%; height: 100.0%;">Al Warsan 1<br>Price: 5284.62 AED<br>Cluster: 2</div>`)[0];
+                popup_c832d0b67d33e5652aa364c988088aed.setContent(html_4656e034bc4b0fc8c540e1a1eba8494e);
+            
+        
+
+        circle_marker_9f2ff497eebf34dbb8fb3a312fd2eefd.bindPopup(popup_c832d0b67d33e5652aa364c988088aed)
+        ;
+
+        
+    
+    
+            var circle_marker_fb5ffab783da2c065ba03839d471db39 = L.circleMarker(
+                [25.1576794, 55.4376687],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_b18335fb2b37ee549e9f67d037311947 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b63ca3fca52a26f6175a9b24c3c7265 = $(`<div id="html_3b63ca3fca52a26f6175a9b24c3c7265" style="width: 100.0%; height: 100.0%;">Al Warsan 2<br>Price: 5112.844999999999 AED<br>Cluster: 2</div>`)[0];
+                popup_b18335fb2b37ee549e9f67d037311947.setContent(html_3b63ca3fca52a26f6175a9b24c3c7265);
+            
+        
+
+        circle_marker_fb5ffab783da2c065ba03839d471db39.bindPopup(popup_b18335fb2b37ee549e9f67d037311947)
+        ;
+
+        
+    
+    
+            var circle_marker_255c09db0ae5c8872b889a2cf1c7ab29 = L.circleMarker(
+                [25.2407367, 55.3520393],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_7154a79bdf067468385eedf4affcb046 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3575524199783dd4be44c2dca99a65bb = $(`<div id="html_3575524199783dd4be44c2dca99a65bb" style="width: 100.0%; height: 100.0%;">Al Garhoud<br>Price: 5045.58 AED<br>Cluster: 2</div>`)[0];
+                popup_7154a79bdf067468385eedf4affcb046.setContent(html_3575524199783dd4be44c2dca99a65bb);
+            
+        
+
+        circle_marker_255c09db0ae5c8872b889a2cf1c7ab29.bindPopup(popup_7154a79bdf067468385eedf4affcb046)
+        ;
+
+        
+    
+    
+            var circle_marker_001278248c22ddb5011721518e2c4763 = L.circleMarker(
+                [25.2805548, 55.4105021],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_db2f31364ee641cadfece760de7522a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ecc20c68116287a5b56aff9a36f25d8 = $(`<div id="html_4ecc20c68116287a5b56aff9a36f25d8" style="width: 100.0%; height: 100.0%;">Muhaisanah 4<br>Price: 4609.705 AED<br>Cluster: 2</div>`)[0];
+                popup_db2f31364ee641cadfece760de7522a0.setContent(html_4ecc20c68116287a5b56aff9a36f25d8);
+            
+        
+
+        circle_marker_001278248c22ddb5011721518e2c4763.bindPopup(popup_db2f31364ee641cadfece760de7522a0)
+        ;
+
+        
+    
+    
+            var circle_marker_8cb2ab319e5326bffcb2bda29ad38d49 = L.circleMarker(
+                [25.1509135, 55.2720063],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_133577471f28c5def850a8bc2c2255d9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_147d7bc2a04c14c9cb2abe9f0958a5fd = $(`<div id="html_147d7bc2a04c14c9cb2abe9f0958a5fd" style="width: 100.0%; height: 100.0%;">Ghadeer Al tair<br>Price: 4484.98 AED<br>Cluster: 2</div>`)[0];
+                popup_133577471f28c5def850a8bc2c2255d9.setContent(html_147d7bc2a04c14c9cb2abe9f0958a5fd);
+            
+        
+
+        circle_marker_8cb2ab319e5326bffcb2bda29ad38d49.bindPopup(popup_133577471f28c5def850a8bc2c2255d9)
+        ;
+
+        
+    
+    
+            var circle_marker_99ccf0a854e106b80a3f850ecb061d1f = L.circleMarker(
+                [25.3005332, 55.3596332],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_6243d810e754495f794c906cd00d4df9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_70a3381a21f871889d7912b045c97d37 = $(`<div id="html_70a3381a21f871889d7912b045c97d37" style="width: 100.0%; height: 100.0%;">Al Mamzer<br>Price: 4343.72 AED<br>Cluster: 2</div>`)[0];
+                popup_6243d810e754495f794c906cd00d4df9.setContent(html_70a3381a21f871889d7912b045c97d37);
+            
+        
+
+        circle_marker_99ccf0a854e106b80a3f850ecb061d1f.bindPopup(popup_6243d810e754495f794c906cd00d4df9)
+        ;
+
+        
+    
+    
+            var circle_marker_bf6c75275864c39ac24ef7852f4f3a17 = L.circleMarker(
+                [25.2407108, 55.4890201],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_3ddb6a2d8715090554bc8c0344b0baf5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4b6b51a826cf20cbe6ec32fc62ae1f26 = $(`<div id="html_4b6b51a826cf20cbe6ec32fc62ae1f26" style="width: 100.0%; height: 100.0%;">Al Khawaneej 1<br>Price: 3956.56 AED<br>Cluster: 2</div>`)[0];
+                popup_3ddb6a2d8715090554bc8c0344b0baf5.setContent(html_4b6b51a826cf20cbe6ec32fc62ae1f26);
+            
+        
+
+        circle_marker_bf6c75275864c39ac24ef7852f4f3a17.bindPopup(popup_3ddb6a2d8715090554bc8c0344b0baf5)
+        ;
+
+        
+    
+    
+            var circle_marker_a30ecf884cdc3b58ae7d9395880a8779 = L.circleMarker(
+                [25.092612, 55.1967007],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_222ce6ef74e8b6a3ff83ebdbac807c91 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b0e37efe6abbc15a54af9fbbedb79b0 = $(`<div id="html_1b0e37efe6abbc15a54af9fbbedb79b0" style="width: 100.0%; height: 100.0%;">Al Barsha 3<br>Price: 3875.0 AED<br>Cluster: 2</div>`)[0];
+                popup_222ce6ef74e8b6a3ff83ebdbac807c91.setContent(html_1b0e37efe6abbc15a54af9fbbedb79b0);
+            
+        
+
+        circle_marker_a30ecf884cdc3b58ae7d9395880a8779.bindPopup(popup_222ce6ef74e8b6a3ff83ebdbac807c91)
+        ;
+
+        
+    
+    
+            var circle_marker_9fe339f014c880d4dbb06273ae1358cb = L.circleMarker(
+                [25.1023751, 55.2160653],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_96b7c52fffd4983a4be0a70c2418c689 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b06eeaa6a5d53f8b43613571dce4741f = $(`<div id="html_b06eeaa6a5d53f8b43613571dce4741f" style="width: 100.0%; height: 100.0%;">Al Barsha 2<br>Price: 3814.0 AED<br>Cluster: 2</div>`)[0];
+                popup_96b7c52fffd4983a4be0a70c2418c689.setContent(html_b06eeaa6a5d53f8b43613571dce4741f);
+            
+        
+
+        circle_marker_9fe339f014c880d4dbb06273ae1358cb.bindPopup(popup_96b7c52fffd4983a4be0a70c2418c689)
+        ;
+
+        
+    
+    
+            var circle_marker_7ade08a1f6d362b5e39a3b940201e059 = L.circleMarker(
+                [25.1988837, 55.3857707],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_e35a4e782e4d13f54e2ff8af5747ddfe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_39ed238c1d08a8cc818ca24ca25aa25b = $(`<div id="html_39ed238c1d08a8cc818ca24ca25aa25b" style="width: 100.0%; height: 100.0%;">Nad Al Hamar<br>Price: 3497.42 AED<br>Cluster: 2</div>`)[0];
+                popup_e35a4e782e4d13f54e2ff8af5747ddfe.setContent(html_39ed238c1d08a8cc818ca24ca25aa25b);
+            
+        
+
+        circle_marker_7ade08a1f6d362b5e39a3b940201e059.bindPopup(popup_e35a4e782e4d13f54e2ff8af5747ddfe)
+        ;
+
+        
+    
+    
+            var circle_marker_23f542ec1205af51bcba5eea75486d69 = L.circleMarker(
+                [25.2915387, 55.3373622],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_50ffd017d07d080b00c5062b1464ff7f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eca1df0d601e338ef3d18d1405e69ed6 = $(`<div id="html_eca1df0d601e338ef3d18d1405e69ed6" style="width: 100.0%; height: 100.0%;">Al Waheda<br>Price: 3444.42 AED<br>Cluster: 2</div>`)[0];
+                popup_50ffd017d07d080b00c5062b1464ff7f.setContent(html_eca1df0d601e338ef3d18d1405e69ed6);
+            
+        
+
+        circle_marker_23f542ec1205af51bcba5eea75486d69.bindPopup(popup_50ffd017d07d080b00c5062b1464ff7f)
+        ;
+
+        
+    
+    
+            var circle_marker_106a7b9f0392d6ada4d4970a031b0679 = L.circleMarker(
+                [25.2453456, 55.4401969],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_3bb31e085114706b9b04dbbe26f256f0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c1994a24c12c22160777050875b683c = $(`<div id="html_3c1994a24c12c22160777050875b683c" style="width: 100.0%; height: 100.0%;">Al Mizhar 1<br>Price: 3193.28 AED<br>Cluster: 2</div>`)[0];
+                popup_3bb31e085114706b9b04dbbe26f256f0.setContent(html_3c1994a24c12c22160777050875b683c);
+            
+        
+
+        circle_marker_106a7b9f0392d6ada4d4970a031b0679.bindPopup(popup_3bb31e085114706b9b04dbbe26f256f0)
+        ;
+
+        
+    
+    
+            var circle_marker_d8e195b41b35b49a2a14792cda8b00ed = L.circleMarker(
+                [25.19029595, 55.429248781359654],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_a8cae392fcf1c543f481a536cbab90dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c49b3631c9c17e8f5645d53c4f82653 = $(`<div id="html_2c49b3631c9c17e8f5645d53c4f82653" style="width: 100.0%; height: 100.0%;">Al Warqa 2<br>Price: 3117.845 AED<br>Cluster: 2</div>`)[0];
+                popup_a8cae392fcf1c543f481a536cbab90dd.setContent(html_2c49b3631c9c17e8f5645d53c4f82653);
+            
+        
+
+        circle_marker_d8e195b41b35b49a2a14792cda8b00ed.bindPopup(popup_a8cae392fcf1c543f481a536cbab90dd)
+        ;
+
+        
+    
+    
+            var circle_marker_4571ab9f0358252e16c47140b464af9f = L.circleMarker(
+                [25.2639056, 55.4477997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_10e6742ceb2f30f941690e7e0ace1494 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d47450d03dced23b56e01ee15347f63a = $(`<div id="html_d47450d03dced23b56e01ee15347f63a" style="width: 100.0%; height: 100.0%;">Oud Al Muteena 1<br>Price: 3100.29 AED<br>Cluster: 2</div>`)[0];
+                popup_10e6742ceb2f30f941690e7e0ace1494.setContent(html_d47450d03dced23b56e01ee15347f63a);
+            
+        
+
+        circle_marker_4571ab9f0358252e16c47140b464af9f.bindPopup(popup_10e6742ceb2f30f941690e7e0ace1494)
+        ;
+
+        
+    
+    
+            var circle_marker_77f76a2cc1ff54388d577ff3d0e90ec7 = L.circleMarker(
+                [25.2635292, 55.4648198],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_53c345198f0e3fe5382cbca830c65dde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41cf988ca362c01c84f8c6dcb6db6edf = $(`<div id="html_41cf988ca362c01c84f8c6dcb6db6edf" style="width: 100.0%; height: 100.0%;">Al Mizhar 3<br>Price: 3072.63 AED<br>Cluster: 2</div>`)[0];
+                popup_53c345198f0e3fe5382cbca830c65dde.setContent(html_41cf988ca362c01c84f8c6dcb6db6edf);
+            
+        
+
+        circle_marker_77f76a2cc1ff54388d577ff3d0e90ec7.bindPopup(popup_53c345198f0e3fe5382cbca830c65dde)
+        ;
+
+        
+    
+    
+            var circle_marker_20ff88601315e18abfc8ff0200187be3 = L.circleMarker(
+                [25.222025, 55.3910064],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_a2dfc4b4562a78c10119acc138be7b77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b7ffec690ee0281ccdccd0eed352532 = $(`<div id="html_6b7ffec690ee0281ccdccd0eed352532" style="width: 100.0%; height: 100.0%;">Al Rashidiya<br>Price: 3067.72 AED<br>Cluster: 2</div>`)[0];
+                popup_a2dfc4b4562a78c10119acc138be7b77.setContent(html_6b7ffec690ee0281ccdccd0eed352532);
+            
+        
+
+        circle_marker_20ff88601315e18abfc8ff0200187be3.bindPopup(popup_a2dfc4b4562a78c10119acc138be7b77)
+        ;
+
+        
+    
+    
+            var circle_marker_3fe075fe761175615856a5de01dda227 = L.circleMarker(
+                [25.19029595, 55.429248781359654],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_4b5b4dee8ffb451365606c128d406ab4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bc838df365b0b1d1c3ef1fbdd4efa36 = $(`<div id="html_3bc838df365b0b1d1c3ef1fbdd4efa36" style="width: 100.0%; height: 100.0%;">Al Warqa 4<br>Price: 3067.095 AED<br>Cluster: 2</div>`)[0];
+                popup_4b5b4dee8ffb451365606c128d406ab4.setContent(html_3bc838df365b0b1d1c3ef1fbdd4efa36);
+            
+        
+
+        circle_marker_3fe075fe761175615856a5de01dda227.bindPopup(popup_4b5b4dee8ffb451365606c128d406ab4)
+        ;
+
+        
+    
+    
+            var circle_marker_dc2690ca572d718201508045381ed3e8 = L.circleMarker(
+                [25.190661, 55.4227553522109],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_75917b8f43f02a00851b1f3cb931b1d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_33eed6ffd4004e147dfa340929a207ca = $(`<div id="html_33eed6ffd4004e147dfa340929a207ca" style="width: 100.0%; height: 100.0%;">Al Warqa Third<br>Price: 2777.77 AED<br>Cluster: 2</div>`)[0];
+                popup_75917b8f43f02a00851b1f3cb931b1d5.setContent(html_33eed6ffd4004e147dfa340929a207ca);
+            
+        
+
+        circle_marker_dc2690ca572d718201508045381ed3e8.bindPopup(popup_75917b8f43f02a00851b1f3cb931b1d5)
+        ;
+
+        
+    
+    
+            var circle_marker_7fd505f24625fcb59d63f9d02de9f83f = L.circleMarker(
+                [25.2615949, 55.3818201],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_cd8218a65639813fb51f4a920fbc4ab2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7e0123946a60976bd47320784bbd3f93 = $(`<div id="html_7e0123946a60976bd47320784bbd3f93" style="width: 100.0%; height: 100.0%;">Al Twar 2<br>Price: 2736.34 AED<br>Cluster: 2</div>`)[0];
+                popup_cd8218a65639813fb51f4a920fbc4ab2.setContent(html_7e0123946a60976bd47320784bbd3f93);
+            
+        
+
+        circle_marker_7fd505f24625fcb59d63f9d02de9f83f.bindPopup(popup_cd8218a65639813fb51f4a920fbc4ab2)
+        ;
+
+        
+    
+    
+            var circle_marker_ab303657a2c1ea9ad8c55e28f5ffc3ee = L.circleMarker(
+                [25.2168755, 55.3861609],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_f368f014d6abc69177dcdd4e2d20eccb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7315803d14e267c77390d7d6964453e = $(`<div id="html_d7315803d14e267c77390d7d6964453e" style="width: 100.0%; height: 100.0%;">Nad Shamma<br>Price: 2713.79 AED<br>Cluster: 2</div>`)[0];
+                popup_f368f014d6abc69177dcdd4e2d20eccb.setContent(html_d7315803d14e267c77390d7d6964453e);
+            
+        
+
+        circle_marker_ab303657a2c1ea9ad8c55e28f5ffc3ee.bindPopup(popup_f368f014d6abc69177dcdd4e2d20eccb)
+        ;
+
+        
+    
+    
+            var circle_marker_b242fb13b4da7c57203be7dc2dfcd3cd = L.circleMarker(
+                [25.2431351, 55.4607968],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_734555209e44348a33d408a5875ef80c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62aa9ec3c42d80fec4f6dbb5ae09e60b = $(`<div id="html_62aa9ec3c42d80fec4f6dbb5ae09e60b" style="width: 100.0%; height: 100.0%;">Al Mizhar 2<br>Price: 2610.25 AED<br>Cluster: 2</div>`)[0];
+                popup_734555209e44348a33d408a5875ef80c.setContent(html_62aa9ec3c42d80fec4f6dbb5ae09e60b);
+            
+        
+
+        circle_marker_b242fb13b4da7c57203be7dc2dfcd3cd.bindPopup(popup_734555209e44348a33d408a5875ef80c)
+        ;
+
+        
+    
+    
+            var circle_marker_bab8cafaa9e7d2dcb49ef234da5c123d = L.circleMarker(
+                [25.2592789, 55.399233],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_7563d6be22135567fc04480f7559eba2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_443b5c52e51857068f482af17ec3b876 = $(`<div id="html_443b5c52e51857068f482af17ec3b876" style="width: 100.0%; height: 100.0%;">Al Twar 4<br>Price: 2551.79 AED<br>Cluster: 2</div>`)[0];
+                popup_7563d6be22135567fc04480f7559eba2.setContent(html_443b5c52e51857068f482af17ec3b876);
+            
+        
+
+        circle_marker_bab8cafaa9e7d2dcb49ef234da5c123d.bindPopup(popup_7563d6be22135567fc04480f7559eba2)
+        ;
+
+        
+    
+    
+            var circle_marker_33f55eabd7d25448b6bc1530df538d3b = L.circleMarker(
+                [25.2269753, 55.5215613],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_4cbc209f77929f67aaee8a1cc80f54a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef6068d31875baea394a3559606d4981 = $(`<div id="html_ef6068d31875baea394a3559606d4981" style="width: 100.0%; height: 100.0%;">Al Khawaneej 2<br>Price: 2529.05 AED<br>Cluster: 2</div>`)[0];
+                popup_4cbc209f77929f67aaee8a1cc80f54a4.setContent(html_ef6068d31875baea394a3559606d4981);
+            
+        
+
+        circle_marker_33f55eabd7d25448b6bc1530df538d3b.bindPopup(popup_4cbc209f77929f67aaee8a1cc80f54a4)
+        ;
+
+        
+    
+    
+            var circle_marker_0da85fd0c08134a6ac9e72ae550b237a = L.circleMarker(
+                [25.28236355, 55.34728803791308],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_dffa947f7a87f0236fda6299f82eb093 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c0c38f5de98fca867421db3c84ada15 = $(`<div id="html_6c0c38f5de98fca867421db3c84ada15" style="width: 100.0%; height: 100.0%;">Hor Al Anz East<br>Price: 2368.06 AED<br>Cluster: 2</div>`)[0];
+                popup_dffa947f7a87f0236fda6299f82eb093.setContent(html_6c0c38f5de98fca867421db3c84ada15);
+            
+        
+
+        circle_marker_0da85fd0c08134a6ac9e72ae550b237a.bindPopup(popup_dffa947f7a87f0236fda6299f82eb093)
+        ;
+
+        
+    
+    
+            var circle_marker_49a5c7f21fe677c163048d2a968023c9 = L.circleMarker(
+                [25.2717857, 55.358385],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_7c2e244c12fd62d5254762703ce11e5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d96c754697102196652d29fcfd98a9f = $(`<div id="html_0d96c754697102196652d29fcfd98a9f" style="width: 100.0%; height: 100.0%;">Al Twar 1<br>Price: 2366.4 AED<br>Cluster: 2</div>`)[0];
+                popup_7c2e244c12fd62d5254762703ce11e5a.setContent(html_0d96c754697102196652d29fcfd98a9f);
+            
+        
+
+        circle_marker_49a5c7f21fe677c163048d2a968023c9.bindPopup(popup_7c2e244c12fd62d5254762703ce11e5a)
+        ;
+
+        
+    
+    
+            var circle_marker_0ccbf88c2a042d5fb4651e6f0a1f38b2 = L.circleMarker(
+                [25.2486566, 55.395005],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_182699726e39e3c17952314f4c52c467 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_547b031b2039fd62d5acfcc18a75d17f = $(`<div id="html_547b031b2039fd62d5acfcc18a75d17f" style="width: 100.0%; height: 100.0%;">Al Twar 3<br>Price: 2356.215 AED<br>Cluster: 2</div>`)[0];
+                popup_182699726e39e3c17952314f4c52c467.setContent(html_547b031b2039fd62d5acfcc18a75d17f);
+            
+        
+
+        circle_marker_0ccbf88c2a042d5fb4651e6f0a1f38b2.bindPopup(popup_182699726e39e3c17952314f4c52c467)
+        ;
+
+        
+    
+    
+            var circle_marker_f9aa08e471dc91a30d9a5fd12b2878a3 = L.circleMarker(
+                [25.175974, 55.4784778],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_bdd430c8b9e9894ba4935e9867894596 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2d7b928041c83dda6b2048558919366c = $(`<div id="html_2d7b928041c83dda6b2048558919366c" style="width: 100.0%; height: 100.0%;">AL Athbah<br>Price: 2296.755 AED<br>Cluster: 2</div>`)[0];
+                popup_bdd430c8b9e9894ba4935e9867894596.setContent(html_2d7b928041c83dda6b2048558919366c);
+            
+        
+
+        circle_marker_f9aa08e471dc91a30d9a5fd12b2878a3.bindPopup(popup_bdd430c8b9e9894ba4935e9867894596)
+        ;
+
+        
+    
+    
+            var circle_marker_49dea14592c9cead4e873372703426e7 = L.circleMarker(
+                [24.8238246, 55.0971343],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_ccefcfeff350255a570e15f90deed4dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a9d0fc2c6fca6940a134bf7feec6183b = $(`<div id="html_a9d0fc2c6fca6940a134bf7feec6183b" style="width: 100.0%; height: 100.0%;">Saih Shuaib 4<br>Price: 2063.985 AED<br>Cluster: 2</div>`)[0];
+                popup_ccefcfeff350255a570e15f90deed4dc.setContent(html_a9d0fc2c6fca6940a134bf7feec6183b);
+            
+        
+
+        circle_marker_49dea14592c9cead4e873372703426e7.bindPopup(popup_ccefcfeff350255a570e15f90deed4dc)
+        ;
+
+        
+    
+    
+            var circle_marker_5c3322800f26d7bbfa5f6605bdae61c4 = L.circleMarker(
+                [25.1493504, 55.42589415915225],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_5524dfd71bbb93ca705de1363bc0da55 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59efc1d1d96ce163a623bfdfce50dcde = $(`<div id="html_59efc1d1d96ce163a623bfdfce50dcde" style="width: 100.0%; height: 100.0%;">Al Aweer 2<br>Price: 2040.32 AED<br>Cluster: 2</div>`)[0];
+                popup_5524dfd71bbb93ca705de1363bc0da55.setContent(html_59efc1d1d96ce163a623bfdfce50dcde);
+            
+        
+
+        circle_marker_5c3322800f26d7bbfa5f6605bdae61c4.bindPopup(popup_5524dfd71bbb93ca705de1363bc0da55)
+        ;
+
+        
+    
+    
+            var circle_marker_e48a4e6d202a81f7ea22b187f5e6e99a = L.circleMarker(
+                [25.2673436, 55.3876601],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_86295cc6bb7a402717c0c49798ed162d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96f42849d024976541235da04833d511 = $(`<div id="html_96f42849d024976541235da04833d511" style="width: 100.0%; height: 100.0%;">Al Qusais 2<br>Price: 2034.55 AED<br>Cluster: 2</div>`)[0];
+                popup_86295cc6bb7a402717c0c49798ed162d.setContent(html_96f42849d024976541235da04833d511);
+            
+        
+
+        circle_marker_e48a4e6d202a81f7ea22b187f5e6e99a.bindPopup(popup_86295cc6bb7a402717c0c49798ed162d)
+        ;
+
+        
+    
+    
+            var circle_marker_9832188862d92aad6376c237c3a1c9c8 = L.circleMarker(
+                [24.84569, 55.0785897],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_6b2f75147d0d97d42763e3bca321b3dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5e182d0dc24267b0b04d952e4880a00 = $(`<div id="html_c5e182d0dc24267b0b04d952e4880a00" style="width: 100.0%; height: 100.0%;">Saih Shuaib 3<br>Price: 1994.02 AED<br>Cluster: 2</div>`)[0];
+                popup_6b2f75147d0d97d42763e3bca321b3dc.setContent(html_c5e182d0dc24267b0b04d952e4880a00);
+            
+        
+
+        circle_marker_9832188862d92aad6376c237c3a1c9c8.bindPopup(popup_6b2f75147d0d97d42763e3bca321b3dc)
+        ;
+
+        
+    
+    
+            var circle_marker_661dfd03427f6b909ec8f721ab9f46cd = L.circleMarker(
+                [24.9024228, 55.0059684],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_5ace9e88a10b2eaa1e8c271665e63c45 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cc65030e7bea8dae201e169e0bb557ab = $(`<div id="html_cc65030e7bea8dae201e169e0bb557ab" style="width: 100.0%; height: 100.0%;">Saih Shuaib 1<br>Price: 1935.42 AED<br>Cluster: 2</div>`)[0];
+                popup_5ace9e88a10b2eaa1e8c271665e63c45.setContent(html_cc65030e7bea8dae201e169e0bb557ab);
+            
+        
+
+        circle_marker_661dfd03427f6b909ec8f721ab9f46cd.bindPopup(popup_5ace9e88a10b2eaa1e8c271665e63c45)
+        ;
+
+        
+    
+    
+            var circle_marker_f74f594f2c9f774d548d08c953ca5f6d = L.circleMarker(
+                [25.176036, 55.5408265],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_2feb4373fdb796e962797b17f3794e50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d992d478165ccca23365330a737ee974 = $(`<div id="html_d992d478165ccca23365330a737ee974" style="width: 100.0%; height: 100.0%;">Al Aweer 1<br>Price: 1845.775 AED<br>Cluster: 2</div>`)[0];
+                popup_2feb4373fdb796e962797b17f3794e50.setContent(html_d992d478165ccca23365330a737ee974);
+            
+        
+
+        circle_marker_f74f594f2c9f774d548d08c953ca5f6d.bindPopup(popup_2feb4373fdb796e962797b17f3794e50)
+        ;
+
+        
+    
+    
+            var circle_marker_6d283f63e12856412488b14e05e9c77f = L.circleMarker(
+                [25.029488, 55.4254573],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_5186616bec4d09ce09d525f2b58aa293 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a7f3379dd2b9ed6b111870c7f9777896 = $(`<div id="html_a7f3379dd2b9ed6b111870c7f9777896" style="width: 100.0%; height: 100.0%;">Madinat Hind 3<br>Price: 1614.26 AED<br>Cluster: 2</div>`)[0];
+                popup_5186616bec4d09ce09d525f2b58aa293.setContent(html_a7f3379dd2b9ed6b111870c7f9777896);
+            
+        
+
+        circle_marker_6d283f63e12856412488b14e05e9c77f.bindPopup(popup_5186616bec4d09ce09d525f2b58aa293)
+        ;
+
+        
+    
+    
+            var circle_marker_8842aecb1f0e3127212a0c43c5ab716b = L.circleMarker(
+                [24.7450428, 55.36193205295207],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6);
+        
+    
+        var popup_39eefa07cf390c0ebfd5ff2c62856d6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f80ba14983386478536c4941c8db7ed4 = $(`<div id="html_f80ba14983386478536c4941c8db7ed4" style="width: 100.0%; height: 100.0%;">Saih Aldahal<br>Price: 7.88 AED<br>Cluster: 2</div>`)[0];
+                popup_39eefa07cf390c0ebfd5ff2c62856d6e.setContent(html_f80ba14983386478536c4941c8db7ed4);
+            
+        
+
+        circle_marker_8842aecb1f0e3127212a0c43c5ab716b.bindPopup(popup_39eefa07cf390c0ebfd5ff2c62856d6e)
+        ;
+
+        
+    
+    
+            marker_cluster_2ee16a6101c9cc0dddf9f2e6b128e0e6.addTo(map_4dc02c29c33f143db5f224ae329b8485);
+        
+</script>
+</html>
